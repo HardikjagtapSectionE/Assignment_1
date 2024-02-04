@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contactus.css" /> 
+  </head>
+  
+  
+  <body>
+    <div class="section">
+      <div class="logo" style="float: left; width: 50%">
+        <h1>iamhardik()</h1>
+      </div>
+      <div class="nav-links" id="navlinks" style="float: right; width: 50%">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="hobbies.html">HOBBIES</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <div class="text_box">
+        <h1>Contact Me</h1>
+      </div>
+
+      <section class="contact-col">
+        <br />
+        <br /><br />
+        <center>
+          <form id="contact-form" onsubmit="sendEmail(); reset(); return false">
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter Your Name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter E-mail Address"
+              required
+            />
+            <input
+              type="text"
+              id="subject"
+              placeholder="Enter Your Subject"
+              required
+            />
+            <textarea
+              rows="8"
+              id="message"
+              placeholder="Message"
+              required
+            ></textarea
+            ><br />
+            <center>
+              <button type="submit" class="hero-btn">Send Message</button>
+            </center>
+          </form>
+        </center>
+      </section>
+    </div>  
+    <footer class="footer">
+      <p>&copy;2024 Hardik Jagtap Assignment_1 | All Rights Reserved</p>
+    </footer> 
+  </body>
+</html>

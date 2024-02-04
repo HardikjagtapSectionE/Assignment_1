@@ -1,0 +1,165 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+.logo h1 {
+  margin: 6%;
+  margin-left: 70px;
+  font-family: "Poppins", sans-serif;
+  color: #000066;
+ }
+.nav-links {
+  flex: 1;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.nav-links ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-top: 50px;
+  padding-right: 30px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: #000066;
+  font-family: "Ubuntu Mono", monospace;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+
+.nav-links ul li:hover::after {
+  margin-top: 10px;
+  width: 100%;
+}
+.text_box {
+  height: 20%;
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  margin-top: 7%;
+  /* left: 50px; */
+}
+
+.text_box h1 {
+  /* background-color: red; */
+  font-size: 53px;
+
+margin-left: -50px;
+  color: #000066;
+  text-align: center;
+  font-family: "Ubuntu Mono", monospace;
+}
+/* .aboutus_paragraph {
+  padding-left: 50px;
+  padding-right: 50px;
+} */
+.heading h2 {
+  /* background-color: red; */
+  font-size: 53px;
+
+margin-left: -50px;
+  color: #000066;
+  text-align: center;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.text_box p {
+  width: 90%;
+  font-size: 21px;
+  font-family: "Ubuntu", sans-serif;
+  color: #f44336;
+  margin-top: 10px;
+  margin-left: 60px;
+  text-align: left;
+  line-height: 35px;
+}
+.text_box h1::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  /* background-color: blue; */
+  background-color: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.text_box h1:hover::after {
+  margin-top: 5px;
+  width: 18%;
+}
+.images{
+  margin-top: 30px;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+img {
+  width: auto;
+  height: 300px;
+  padding: 10px;
+}
+/* table { 
+  width: 50%;
+  color: black;
+  border: 2px;
+  }
+
+th, td {
+  text-align: left;
+  height: 30px;
+  padding: 8px;
+  text-align: center;
+  font-size: 22px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}  */
+.footer {
+  margin-top: 100px;
+  width: 100%;
+  background: #c599a5;
+  min-height: 80px;
+  padding: 20px 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  left: 0;
+  bottom: 0;
+}
+
+.footer p {
+  color: #000066;
+  font-size: 19px;
+  font-weight: bold;
+}
